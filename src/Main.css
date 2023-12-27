@@ -1,0 +1,43 @@
+/* Add this to your existing CSS file or create a new one */
+
+body {
+    background-image: url("../pxfuel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Use 'cover' to make sure the image covers the entire body */
+    background-attachment: fixed;
+    /* Fixed background to prevent scrolling */
+    margin: 0;
+    /* Remove default body margin */
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav h1 {
+    color: #fff;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #61dafb;
+}

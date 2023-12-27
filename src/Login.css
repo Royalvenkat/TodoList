@@ -1,0 +1,67 @@
+.Login {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 1px;
+    margin-right: 200px;
+    padding: 10px;
+    border: 10px inset grey;
+    background-color: rgba(50, 110, 80, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: black;
+    text-shadow: 2px -1px yellowgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+p {
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p.success {
+    color: green;
+}
+
+.LinkStyle {
+    color: darkmagenta;
+  
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.LinkStyle:hover {
+    text-decoration: underline;
+ 
+}
+.Home{
+    float: left;
+    font-size: x-large;
+}
